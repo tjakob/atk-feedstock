@@ -16,7 +16,7 @@ build:
 
 requirements:
   build:
-    - python  # [py27]
+    - python
     - glib 2.51.*
     - gobject-introspection 1.51.*
     - perl 5.22.2.1
