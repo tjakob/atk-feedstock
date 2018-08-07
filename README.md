@@ -14,14 +14,16 @@ Summary: Accessibility Toolkit.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/atk-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/atk-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/atk-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/atk-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/atk-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/atk-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/atk-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/atk-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/atk/badges/version.svg)](https://anaconda.org/conda-forge/atk)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/atk/badges/downloads.svg)](https://anaconda.org/conda-forge/atk)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-atk-green.svg)](https://anaconda.org/conda-forge/atk) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/atk.svg)](https://anaconda.org/conda-forge/atk) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/atk.svg)](https://anaconda.org/conda-forge/atk) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/atk.svg)](https://anaconda.org/conda-forge/atk) |
 
 Installing atk
 ==============
