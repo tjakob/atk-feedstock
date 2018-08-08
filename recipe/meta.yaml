@@ -11,19 +11,21 @@ source:
   sha256: 22d54c0ee7930c5906ab7d98e8711276edd2297c83bfd250ce471ff5e23e6094
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win or py3k]
   detect_binary_files_with_prefix: true
 
 requirements:
   build:
-    - python
-    - glib 2.55.*
-    - gobject-introspection 1.55.*
     - perl 5.22.2.1
     - pkg-config
+    - {{ compiler('c') }}
+  host:
+    - python
+    - glib
+    - gobject-introspection 1.55.*
   run:
-    - glib 2.55.*
+    - glib
     - gobject-introspection 1.55.*
 
 test:
