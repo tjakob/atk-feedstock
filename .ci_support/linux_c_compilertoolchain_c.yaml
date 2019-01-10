@@ -9,7 +9,7 @@ channel_targets:
 docker_image:
 - condaforge/linux-anvil
 glib:
-- '2.56'
+- '2.58'
 perl:
 - '5.26'
 pin_run_as_build:
