@@ -11,7 +11,7 @@ source:
   sha256: 22d54c0ee7930c5906ab7d98e8711276edd2297c83bfd250ce471ff5e23e6094
 
 build:
-  number: 1002
+  number: 1003
   skip: True  # [win]
   detect_binary_files_with_prefix: true
 
@@ -20,6 +20,7 @@ requirements:
     - python >=3.6
     - perl
     - pkg-config
+    - make
     - {{ compiler('c') }}
   host:
     - glib
